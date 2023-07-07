@@ -560,6 +560,39 @@ function App() {
         <div className="col">
           <Panel>
             <h1>IPSec Overhead Calculator</h1>
+            <p>
+              This is a tool to calculate the resulting packet size when it
+              traverses an IPSec tunnel. The options allow you select what
+              encryption settings are used and whether you are using a GRE
+              tunnel.
+            </p>
+            <p>
+              With the increasing popularity of IPSec VPN deployments on the
+              Internet, there is often a need to understand the exact IPSec and
+              other tunnel encapsulation overhead in order to determine the
+              fragmentation boundary conditions for optimal MTU/MSS tuning, or
+              to perform bandwidth budgeting on low-bandwidth links
+            </p>
+            <p>
+              Note, even though most of the overhead calculation for this tool
+              is standard RFC based, some can be implementation specific, such
+              as ESP padding. For those calculations, the tool is based on the
+              Cisco IOS/IOS-XE implementation
+            </p>
+            <p>
+              This tool was create by Jay Young and Wen Zhang supported by{" "}
+              <a href="https://cisco.com" target="_blank">
+                Cisco
+              </a>
+              . Any issues with the site can be reported via the{" "}
+              <a
+                href="https://github.com/ministryofjay/ipsec-overhead-calculator"
+                target="_blank"
+              >
+                GitHub Repo
+              </a>
+              .
+            </p>
           </Panel>
         </div>
       </div>
