@@ -49,7 +49,7 @@ const espHmacItems = [
   "ESP-MD5-HMAC",
   "ESP-SHA-HMAC",
   "ESP-SHA-256",
-  "ESP-SHA-256",
+  "ESP-SHA-384",
   "ESP-SHA-512",
   "ESP-GMAC-128/192/256",
 ];
